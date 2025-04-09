@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="panel" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="227.0" prefWidth="529.0" style="-fx-background-color: WHITE; -fx-border-color: BLACK;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller">
+   <children>
+      <Label fx:id="label" alignment="CENTER" layoutX="98.0" layoutY="18.0" prefHeight="179.0" prefWidth="398.0" style="-fx-background-color: #002301;" text="MP3 OYNATICI" textFill="#00ff04">
+         <font>
+            <Font size="34.0" />
+         </font>
+      </Label>
+      <Button fx:id="oynat" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#oynat" prefHeight="35.0" prefWidth="72.0" style="-fx-background-color: WHITE; -fx-border-color: BLACK;" text="OYNAT" />
+      <Button fx:id="durdur" layoutX="14.0" layoutY="57.0" mnemonicParsing="false" onAction="#durdur" prefHeight="35.0" prefWidth="72.0" style="-fx-background-color: WHITE; -fx-border-color: BLACK;" text="DURDUR" />
+      <Button fx:id="onceki" layoutX="14.0" layoutY="99.0" mnemonicParsing="false" onAction="#onceki" prefHeight="35.0" prefWidth="72.0" style="-fx-background-color: WHITE; -fx-border-color: BLACK;" text="ÖNCEKİ" />
+      <Button fx:id="sonraki" layoutX="14.0" layoutY="141.0" mnemonicParsing="false" onAction="#sonraki" prefHeight="35.0" prefWidth="72.0" style="-fx-background-color: WHITE; -fx-border-color: BLACK;" text="SONRAKİ" />
+      <Button fx:id="basasar" layoutX="14.0" layoutY="182.0" mnemonicParsing="false" onAction="#basasar" prefHeight="35.0" prefWidth="72.0" style="-fx-background-color: WHITE; -fx-border-color: BLACK;" text="B.SAR" />
+      <ProgressBar fx:id="gosterge" layoutX="98.0" layoutY="210.0" prefHeight="6.0" prefWidth="398.0" progress="0.0" style="-fx-border-color: BLACK; -fx-background-color: WHITE;" />
+      <Slider fx:id="sesayar" layoutX="507.0" layoutY="15.0" orientation="VERTICAL" prefHeight="204.0" prefWidth="14.0" style="-fx-background-color: WHITE; -fx-border-color: BLACK;" />
+   </children>
+</AnchorPane>
